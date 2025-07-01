@@ -1,0 +1,79 @@
+name: my_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.0
+  cached_network_image: ^3.3.1
+  http: ^0.13.6
+  url_launcher: ^6.2.5
+  font_awesome_flutter: ^10.7.0
+  firebase_storage: ^12.4.7
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.6.0
+  cloud_firestore: ^5.5.0
+  shared_preferences: ^2.2.2
+  provider: ^6.1.2
+  image_picker: ^1.0.2
+  get: ^4.7.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1  # ✅ Add this line
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/plumber.jpg
+    - assets/electrician.jpg
+    - assets/gardener.jpeg
+    - assets/security.jpg
+    - assets/caretaker.jpg
+    - assets/carpentry.jpeg
+    - assets/profile.png
+    - assets/chef.jpeg
+    - assets/developer.jpeg
+    - assets/splash_screen.png
+    - assets/login.png
+    - assets/register.png
+    - assets/ac_technician.jpg
+    - assets/mens_salon.webp
+    - assets/womens_salon.png
+    - assets/mechanic.webp
+    - assets/washing_machine_repair.jpg
+    - assets/babysitter.jpg
+    - assets/fitness&yoga.jpg
+    - assets/dj_services.jpg
+    - assets/Photographer.jpg
+    - assets/Videographers.jpg
+    - assets/facial&cleaning.jpg
+    - assets/mens_detan.jpg
+    - assets/facial.jpg
+    - assets/haircut&beard_styling.jpg
+    - assets/haircutting.webp
+    - assets/mens_massage.jpg
+    - assets/mens_medicure&pedicure.jpg
+    - assets/threading&facewaxing.webp
+    - assets/waxing.jpg
+    - assets/womens_medicure&pedicure.jpg
+    - assets/womens_spa.jpg
+    - assets/salon_banner.webp
+    - assets/salon_banner1.jpeg
+    - assets/salon_banner2.jpg
+    - assets/salon_banner3.jpg
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/tj_icon.jpg"  # ✅ Provide your app icon here
